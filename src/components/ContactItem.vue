@@ -1,6 +1,6 @@
 <template>
 	<li>
-		<span class="icon"><span :class="'fas fa-' + icon" aria-hidden="true"></span></span>
+		<span class="icon"><span :class="'fas fa-fw fa-' + icon" aria-hidden="true"></span></span>
 		<span class="text"><slot /></span>
 	</li>
 </template>
@@ -19,22 +19,20 @@ export default {
 <style scoped>
 li
 {
-	@apply relative;
+	@apply my-2;
 	@apply cursor-pointer;
-	margin: 10px 0;
 }
 
 .icon
 {
 	@apply inline-block;
-	width: 30px;
+	@apply mr-2;
+	@apply text-lg;
 	color: #03a9f4;
-	font-size: 18px;
 }
 
 .text
 {
-	@apply text-white;
-	font-weight: 300;
+	@apply font-light text-white;
 }
 </style>

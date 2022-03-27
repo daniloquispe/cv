@@ -20,14 +20,13 @@ export default {
 <style scoped>
 .section
 {
-	padding-top: 40px;
+	@apply pt-10;
 }
 
 h2
 {
 	@apply text-white uppercase;
-	margin-bottom: 20px;
-	font-weight: 600;
-	letter-spacing: 1px;
+	@apply mb-5;
+	@apply font-semibold tracking-wider;
 }
 </style>

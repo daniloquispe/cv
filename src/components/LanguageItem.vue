@@ -12,7 +12,6 @@ export default {
 	name: "LanguageItem",
 	props: {
 		percent: {
-			type: Number,
 			default: 100,
 		}
 	}
@@ -22,7 +21,7 @@ export default {
 <style scoped>
 li
 {
-	margin-bottom: 15px;
+	@apply mb-4;
 }
 
 .name
@@ -33,9 +32,8 @@ li
 .percent
 {
 	@apply relative;
-	@apply block w-full;
-	height: 6px;
-	margin-top: 5px;
+	@apply block w-full h-1.5;
+	@apply mt-1.5;
 	background: #081921;
 }
 

@@ -25,24 +25,22 @@ export default {
 <style scoped>
 li
 {
-	margin-bottom: 15px;
+	@apply mb-4;
 }
 
 li h3
 {
+	@apply font-semibold;
 	color: #03a9f4;
-	font-weight: 500;
 }
 
 li .title
 {
-	@apply text-white;
-	font-weight: 500;
+	@apply font-semibold text-white;
 }
 
 li .at
 {
 	@apply text-white;
-	font-weight: 300;
 }
 </style>

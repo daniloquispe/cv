@@ -24,15 +24,13 @@ export default {
 <style scoped>
 .profile-text
 {
-	@apply relative;
 	@apply flex flex-col items-center;
-	padding-bottom: 20px;
+	@apply pb-5;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .image
 {
-	@apply relative;
 	@apply rounded-full;
 	@apply overflow-hidden;
 	width: 200px;
@@ -41,7 +39,6 @@ export default {
 
 .image img
 {
-	@apply absolute top-0 left-0;
 	@apply w-full h-full;
 	@apply object-cover;
 }
@@ -49,8 +46,8 @@ export default {
 h1
 {
 	@apply text-2xl text-center text-white uppercase;
-	font-weight: 600;
-	margin-top: 20px;
+	@apply mt-5 mb-2;
+	@apply font-semibold;
 }
 
 h1 + p
