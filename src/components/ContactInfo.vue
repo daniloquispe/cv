@@ -1,6 +1,5 @@
 <template>
-	<div class="contact-info">
-		<h2>{{ title }}</h2>
+	<LeftSideSection title="Contact Info">
 		<ul>
 			<ContactItem icon="phone">{{ phone }}</ContactItem>
 			<ContactItem icon="envelope">{{ email }}</ContactItem>
@@ -8,14 +7,15 @@
 			<ContactItem icon="linkedin">{{ linkedInProfile }}</ContactItem>
 			<ContactItem icon="map-marker">{{ address }}</ContactItem>
 		</ul>
-	</div>
+	</LeftSideSection>
 </template>
 
 <script>
 import ContactItem from "./ContactItem.vue";
+import LeftSideSection from "./LeftSideSection.vue";
 export default {
 	name: "ContactInfo",
-	components: {ContactItem},
+	components: {LeftSideSection, ContactItem},
 	data()
 	{
 		return {
@@ -31,11 +31,6 @@ export default {
 </script>
 
 <style scoped>
-.contact-info
-{
-	padding-top: 40px;
-}
-
 h2
 {
 	@apply text-white uppercase;
