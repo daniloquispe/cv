@@ -2,9 +2,12 @@
 	<RightSideSection title="Interests">
 		<ul>
 			<InterestItem icon="gamepad">Gaming</InterestItem>
-			<InterestItem icon="microphone">Singing</InterestItem>
-			<InterestItem icon="book">Reading</InterestItem>
-			<InterestItem icon="utensils">Cooking</InterestItem>
+			<InterestItem icon="microphone">Karaoke</InterestItem>
+			<InterestItem icon="film">Movies</InterestItem>
+			<InterestItem icon="book-open">Reading</InterestItem>
+			<InterestItem icon="pen">Writing</InterestItem>
+			<InterestItem icon="bicycle">Biking</InterestItem>
+			<InterestItem icon="person-swimming">Swimming</InterestItem>
 		</ul>
 	</RightSideSection>
 </template>

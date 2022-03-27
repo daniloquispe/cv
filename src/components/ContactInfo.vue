@@ -24,7 +24,7 @@ export default {
 			email: 'daniloquispe@gmail.com',
 			website: 'daniloquispe.dev',
 			linkedInProfile: 'linkedin.com/in/daniloquispe',
-			address: 'Comas, Lima, Perú'
+			address: 'Comas, Lima, Peru'
 		};
 	}
 }

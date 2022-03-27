@@ -1,11 +1,15 @@
 <template>
 	<RightSideSection title="Professional Skills">
-		<SkillItem>HTML</SkillItem>
-		<SkillItem>CSS</SkillItem>
-		<SkillItem>JavaScript</SkillItem>
-		<SkillItem>PHP</SkillItem>
+		<SkillItem percent="75">GNU/Linux</SkillItem>
+		<SkillItem percent="90">HTML 5</SkillItem>
+		<SkillItem percent="80">CSS 3</SkillItem>
+		<SkillItem percent="90">Bootstrap 3/4/5</SkillItem>
+		<SkillItem percent="80">Tailwind CSS</SkillItem>
+		<SkillItem percent="80">JavaScript</SkillItem>
+		<SkillItem percent="40">Vue 2/3</SkillItem>
+		<SkillItem percent="80">PHP 7/8</SkillItem>
+		<SkillItem percent="80">Laravel 7/8</SkillItem>
 		<SkillItem percent="60">MariaDB</SkillItem>
-		<SkillItem percent="75">Linux</SkillItem>
 	</RightSideSection>
 </template>
 

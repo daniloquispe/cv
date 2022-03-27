@@ -1,7 +1,11 @@
 <template>
 	<RightSideSection title="Profile">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget orci sed purus ultricies vulputate eget a ligula. Praesent egestas convallis elit, vel malesuada felis. Cras eget quam eu massa cursus euismod sed pretium eros. Pellentesque a vehicula odio. Nunc nec vehicula neque, eu fermentum felis.</p>
-		<p>Donec fringilla leo quis vulputate euismod. Nullam tincidunt lobortis varius. Fusce a sagittis tellus. Nam egestas eros in velit blandit, eu convallis felis efficitur. Morbi ultricies venenatis euismod. Aenean venenatis mauris et tincidunt iaculis.</p>
+		<p>I have experience in web design and development for all-size organizations and business sectors, CMS and
+			enterprise information systems (ERPs) in desktop, client/server or Web environments. Software skills
+			acquired by self-learning (PHP, MySQL/MariaDB, GIMP, Inkscape, hosting and Web servers management).</p>
+		<p>Experienced in software development project teams, including new members selection, skills evaluation and
+			workflow planning. Experienced in direct client assistance, tech support, using remote tools (phone call,
+			e-mail, tickets systems and/or remote-control software such as AnyDesk, TeamViewer, Remmina or similar).</p>
 	</RightSideSection>
 </template>
 

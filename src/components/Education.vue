@@ -1,8 +1,11 @@
 <template>
 	<LeftSideSection title="Education">
 		<ul>
-			<EducationItem period="1998 - 2005" at="Universidad Nacional Mayor de San Marcos">Bachelor Degree in Systems Engineering</EducationItem>
-			<EducationItem period="1998 - 2005" at="SENATI">Applications Programmer</EducationItem>
+			<EducationItem period="2021" at="Udemy">Vue + Firebase</EducationItem>
+			<EducationItem period="2020" at="Udemy">Linux servers administration</EducationItem>
+			<EducationItem period="2013 - 2014" at="SENATI">Android apps development</EducationItem>
+			<EducationItem period="1999" at="SENATI">Applications Programmer</EducationItem>
+			<EducationItem period="1998 - 2005" at="National University of San Marcos">Bachelor Degree in Systems Engineering</EducationItem>
 		</ul>
 	</LeftSideSection>
 </template>

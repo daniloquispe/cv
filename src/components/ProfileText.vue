@@ -1,23 +1,16 @@
 <template>
 	<div class="profile-text">
 		<div class="image">
-			<img src="https://placekitten.com/200/200" :alt="fullName" />
+			<img src="@/assets/photo.jpg" alt="Danilo Alejandro Quispe Lucana" />
 		</div>
-		<h1>{{ fullName }}</h1>
-		<p>{{ jobTitle }}</p>
+		<h1>Danilo Alejandro<br />Quispe Lucana</h1>
+		<p>Web Developer</p>
 	</div>
 </template>
 
 <script>
 export default {
-	name: "ProfileText",
-	data()
-	{
-		return {
-			fullName: 'Danilo Alejandro Quispe Lucana',
-			jobTitle: 'Web Developer',
-		};
-	}
+	name: "ProfileText"
 }
 </script>
 
