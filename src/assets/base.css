@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base
+{
+	*
+	{
+		font-family: Lato, Helvetica, Arial, sans-serif;
+	}
+
+	body
+	{
+		@apply flex justify-center items-center;
+		@apply min-h-screen;
+		background: lightblue;
+	}
+}
