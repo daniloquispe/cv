@@ -34,8 +34,8 @@ export default {
 <style scoped>
 .box
 {
-	@apply flex flex-row;
-	margin: 20px 0 0;
+	@apply md:flex md:flex-row;
+	@apply mt-4;
 }
 
 .box .year-company
@@ -46,23 +46,13 @@ export default {
 .box .year-company h3,
 .box .year-company p
 {
-	@apply uppercase;
+	@apply font-semibold;
 	color: #848c90;
-	font-weight: 600;
 }
 
 .box .text strong
 {
 	@apply uppercase;
 	color: #2a7da2;
-	font-size: 16px;
-}
-
-@media (max-width: 600px)
-{
-	.box
-	{
-		@apply flex-col;
-	}
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
 	<li>
-		<span :class="'fas fa-' + icon"></span>
+		<span :class="'fas fa-fw fa-' + icon"></span>
 		<slot />
 	</li>
 </template>
@@ -20,15 +20,15 @@ export default {
 <style scoped>
 li
 {
+	@apply mt-1;
+	@apply font-semibold;
 	color: #333;
-	font-weight: 500;
-	margin: 10px 0;
 }
 
 li > span
 {
-	width: 28px;
+	@apply mr-2;
+	@apply text-lg;
 	color: #03a9f4;
-	font-size: 18px;
 }
 </style>

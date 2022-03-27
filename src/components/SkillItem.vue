@@ -12,7 +12,6 @@ export default {
 	name: "SkillItem",
 	props: {
 		percent: {
-			type: Number,
 			default: 100
 		}
 	}
@@ -22,7 +21,6 @@ export default {
 <style scoped>
 .box
 {
-	@apply relative;
 	@apply grid justify-center items-center;
 	@apply w-full;
 	grid-template-columns: 150px 1fr;
@@ -30,16 +28,14 @@ export default {
 
 .box h3
 {
-	@apply uppercase;
+	@apply font-semibold uppercase;
 	color: #848c99;
-	font-weight: 500;
 }
 
 .box .percent
 {
 	@apply relative;
-	@apply w-full;
-	height: 10px;
+	@apply w-full h-2.5;
 	background: #f0f0f0;
 }
 
@@ -50,7 +46,7 @@ export default {
 	background: #03a9f4;
 }
 
-@media (max-width: 600px)
+@media (max-width: 640px)
 {
 	.box
 	{
