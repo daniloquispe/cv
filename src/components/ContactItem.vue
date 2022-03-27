@@ -1,6 +1,8 @@
 <template>
 	<li>
-		<span class="icon"><span :class="'fas fa-fw fa-' + icon" aria-hidden="true"></span></span>
+		<span class="icon">
+			<font-awesome-icon :icon="icon" size="lg" fixed-width />
+		</span>
 		<span class="text"><slot /></span>
 	</li>
 </template>
@@ -27,7 +29,6 @@ li
 {
 	@apply inline-block;
 	@apply mr-2;
-	@apply text-lg;
 	color: #03a9f4;
 }
 

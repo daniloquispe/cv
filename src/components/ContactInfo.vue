@@ -4,7 +4,7 @@
 			<ContactItem icon="phone">{{ phone }}</ContactItem>
 			<ContactItem icon="envelope">{{ email }}</ContactItem>
 			<ContactItem icon="globe">{{ website }}</ContactItem>
-			<ContactItem icon="linkedin">{{ linkedInProfile }}</ContactItem>
+			<ContactItem :icon="['fab', 'linkedin-in']">{{ linkedInProfile }}</ContactItem>
 			<ContactItem icon="map-marker">{{ address }}</ContactItem>
 		</ul>
 	</LeftSideSection>

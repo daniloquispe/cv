@@ -1,6 +1,8 @@
 <template>
 	<li>
-		<span :class="'fas fa-fw fa-' + icon"></span>
+		<span>
+			<font-awesome-icon :icon="icon" size="lg" fixed-width />
+		</span>
 		<slot />
 	</li>
 </template>
@@ -28,7 +30,6 @@ li
 li > span
 {
 	@apply mr-2;
-	@apply text-lg;
 	color: #03a9f4;
 }
 </style>
