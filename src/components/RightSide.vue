@@ -45,8 +45,8 @@ export default {
 .right-side
 {
 	@apply lg:col-span-2;
+	@apply p-10;
 	@apply bg-white;
-	padding: 40px;
 }
 p
 {

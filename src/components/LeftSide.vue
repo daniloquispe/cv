@@ -47,8 +47,7 @@ export default {
 <style scoped>
 .left-side
 {
-	@apply relative;
+	@apply p-10;
 	background: #003147;
-	padding: 40px;
 }
 </style>
