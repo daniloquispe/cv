@@ -44,7 +44,7 @@ export default {
 <style scoped>
 .right-side
 {
-	@apply relative;
+	@apply lg:col-span-2;
 	@apply bg-white;
 	padding: 40px;
 }
