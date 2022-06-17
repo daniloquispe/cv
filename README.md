@@ -1,14 +1,8 @@
-# cv
+# My CV
 
-This template should help get you started developing with Vue 3 in Vite.
+This is my curriculum vitae as web developer.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Made with HTML5, CSS 3, [Vue.js](https://vuejs.org) and [Tailwind CSS](https://tailwindcss.org).
 
 ## Project Setup
 
