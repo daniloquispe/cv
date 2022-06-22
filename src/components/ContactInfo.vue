@@ -22,7 +22,7 @@ export default {
 		return {
 			title: 'Contact info',
 			phone: '+51 981 306 233',
-			email: 'daniloquispe@gmail.com',
+			email: 'dql@daniloquispe.dev',
 			website: 'daniloquispe.dev',
 			githubRepo: 'github.com/daniloquispe',
 			linkedInProfile: 'linkedin.com/in/daniloquispe',
