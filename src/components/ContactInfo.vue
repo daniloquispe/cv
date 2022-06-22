@@ -5,6 +5,7 @@
 			<ContactItem icon="envelope">{{ email }}</ContactItem>
 			<ContactItem icon="globe">{{ website }}</ContactItem>
 			<ContactItem :icon="['fab', 'linkedin-in']">{{ linkedInProfile }}</ContactItem>
+			<ContactItem :icon="['fab', 'github']">{{ githubRepo }}</ContactItem>
 			<ContactItem icon="map-marker">{{ address }}</ContactItem>
 		</ul>
 	</LeftSideSection>
@@ -23,6 +24,7 @@ export default {
 			phone: '+51 981 306 233',
 			email: 'daniloquispe@gmail.com',
 			website: 'daniloquispe.dev',
+			githubRepo: 'github.com/daniloquispe',
 			linkedInProfile: 'linkedin.com/in/daniloquispe',
 			address: 'Comas, Lima, Peru'
 		};
