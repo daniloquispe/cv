@@ -41,7 +41,7 @@ export default {
 .box .year-company
 {
 	@apply md:flex-none;
-	width: 150px;
+	width: 200px;
 }
 
 .box .year-company h3,

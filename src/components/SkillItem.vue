@@ -23,7 +23,7 @@ export default {
 {
 	@apply grid justify-center items-center;
 	@apply w-full;
-	grid-template-columns: 150px 1fr;
+	grid-template-columns: 200px 1fr;
 }
 
 .box h3
