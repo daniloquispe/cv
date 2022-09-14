@@ -1,13 +1,14 @@
 <template>
 	<RightSideSection title="Interests">
 		<ul>
-			<InterestItem icon="gamepad">Gaming</InterestItem>
+			<InterestItem icon="gamepad">Videogames</InterestItem>
 			<InterestItem icon="microphone">Karaoke</InterestItem>
 			<InterestItem icon="film">Movies</InterestItem>
 			<InterestItem icon="book-open">Reading</InterestItem>
 			<InterestItem icon="pen">Writing</InterestItem>
 			<InterestItem icon="bicycle">Biking</InterestItem>
 			<InterestItem icon="person-swimming">Swimming</InterestItem>
+			<InterestItem icon="camera">Photography</InterestItem>
 		</ul>
 	</RightSideSection>
 </template>

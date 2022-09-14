@@ -1,5 +1,8 @@
 <template>
 	<RightSideSection title="Experience">
+		<ExperienceItem period="2022 - today" company-name="FuzzPass" title="Freelance developer">
+			<p>Development of REST API for Perumin mobile app (integration with Perumin website information)</p>
+		</ExperienceItem>
 		<ExperienceItem period="2021 - today" company-name="Bilingual Language Solutions" title="Developer">
 			<p>Development of integration software for Bilingual interpreters' information and productivity
 				reports (web-based platform, REST API and Google Chrome extension).</p>
@@ -9,7 +12,7 @@
 			<p>Employees training.</p>
 			<p>User manuals and technical documentation</p>
 		</ExperienceItem>
-		<ExperienceItem period="2021" company-name="New Information Digital" title="Web Developer">
+		<ExperienceItem period="2021" company-name="New Information Digital" title="Freelance Web Developer">
 			<p>Modifications and mew modules development for Perumin website (3rd-party custom CMS).</p>
 		</ExperienceItem>
 		<ExperienceItem period="2020 - 2021" company-name="Informática Delta" title="PHP Developer">
