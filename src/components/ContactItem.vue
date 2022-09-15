@@ -1,21 +1,25 @@
 <template>
 	<li>
-		<span class="icon">
-			<font-awesome-icon :icon="icon" size="lg" fixed-width />
-		</span>
-		<span class="text"><slot /></span>
+		<a :href="linkTo" :target="linkTo !== '#' ? '_blank' : '_self'">
+			<span class="icon">
+				<font-awesome-icon :icon="icon" size="lg" fixed-width />
+			</span>
+			<span class="text"><slot /></span>
+		</a>
 	</li>
 </template>
 
-<script>
-export default {
-	name: "ContactItem",
-	props: {
-		icon: {
-			required: true
-		}
+<script setup>
+defineProps({
+	icon: {
+		type: [String, Array],
+		required: true
+	},
+	linkTo: {
+		type: String,
+		default: '#'
 	}
-}
+});
 </script>
 
 <style scoped>

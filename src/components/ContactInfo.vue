@@ -2,34 +2,25 @@
 	<LeftSideSection title="Contact Info">
 		<ul>
 			<ContactItem icon="phone">{{ phone }}</ContactItem>
-			<ContactItem icon="envelope">{{ email }}</ContactItem>
-			<ContactItem icon="globe">{{ website }}</ContactItem>
-			<ContactItem :icon="['fab', 'linkedin-in']">{{ linkedInProfile }}</ContactItem>
-			<ContactItem :icon="['fab', 'github']">{{ githubRepo }}</ContactItem>
-			<ContactItem icon="map-marker">{{ address }}</ContactItem>
+			<ContactItem icon="envelope" :link-to="'mailto:' + email">{{ email }}</ContactItem>
+			<ContactItem icon="globe" :link-to="'https://' + website">{{ website }}</ContactItem>
+			<ContactItem :icon="['fab', 'linkedin-in']" :link-to="'https://' + linkedInProfile">{{ linkedInProfile }}</ContactItem>
+			<ContactItem :icon="['fab', 'github']" :link-to="'https://' + githubRepo">{{ githubRepo }}</ContactItem>
+			<ContactItem icon="map-marker">{{ location }}</ContactItem>
 		</ul>
 	</LeftSideSection>
 </template>
 
-<script>
+<script setup>
 import ContactItem from "./ContactItem.vue";
 import LeftSideSection from "./LeftSideSection.vue";
-export default {
-	name: "ContactInfo",
-	components: {LeftSideSection, ContactItem},
-	data()
-	{
-		return {
-			title: 'Contact info',
-			phone: '+51 981 306 233',
-			email: 'dql@daniloquispe.dev',
-			website: 'daniloquispe.dev',
-			githubRepo: 'github.com/daniloquispe',
-			linkedInProfile: 'linkedin.com/in/daniloquispe',
-			address: 'Comas, Lima, Peru'
-		};
-	}
-}
+
+const phone = '+51 981 306 233';
+const email = 'dql@daniloquispe.dev';
+const website = 'daniloquispe.dev';
+const githubRepo = 'github.com/daniloquispe';
+const linkedInProfile = 'linkedin.com/in/daniloquispe';
+const location = 'Comas, Lima, Peru';
 </script>
 
 <style scoped>
