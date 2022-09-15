@@ -35,6 +35,7 @@ export default {
 .box
 {
 	@apply md:flex md:flex-row;
+	@apply print:flex print:flex-row;
 	@apply mt-4;
 }
 
@@ -55,5 +56,14 @@ export default {
 {
 	@apply uppercase;
 	color: #2a7da2;
+}
+
+@media print
+{
+	.box .year-company
+	{
+		@apply flex-none;
+		width: 130px;
+	}
 }
 </style>

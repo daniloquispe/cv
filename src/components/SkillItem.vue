@@ -19,13 +19,6 @@ export default {
 </script>
 
 <style scoped>
-.box
-{
-	@apply grid justify-center items-center;
-	@apply w-full;
-	grid-template-columns: 200px 1fr;
-}
-
 .box h3
 {
 	@apply font-semibold uppercase;
@@ -36,21 +29,49 @@ export default {
 {
 	@apply relative;
 	@apply w-full h-2.5;
-	background: #f0f0f0;
+/*	background: #f0f0f0;*/
 }
 
 .box .percent > div
 {
 	@apply absolute top-0 left-0;
 	@apply h-full;
-	background: #03a9f4;
+/*	background: #03a9f4;*/
 }
 
-@media (max-width: 640px)
+@media screen
+{
+	.box .percent
+	{
+		background: #f0f0f0;
+	}
+
+	.box .percent > div
+	{
+		background: #03a9f4
+	}
+}
+
+@media screen(sm)
 {
 	.box
 	{
-		grid-template-columns: repeat(1, 1fr);
+		@apply grid justify-center items-center;
+		@apply w-full;
+		grid-template-columns: 200px 1fr;
+	}
+}
+
+@media print
+{
+	.box
+	{
+		grid-template-columns: 130px 1fr;
+	}
+	.box .percent > div
+	{
+		@apply mt-1 border-t-4 border-solid;
+		border-color: #03a9f4;
 	}
 }
 </style>

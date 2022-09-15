@@ -9,6 +9,7 @@
 	*
 	{
 		font-family: Lato, Helvetica, Arial, sans-serif;
+		@apply print:text-xs;
 	}
 
 	body
@@ -20,10 +21,18 @@
 
 	#app
 	{
-		@apply container;
 		@apply lg:grid lg:grid-cols-3;
-		@apply m-1 lg:m-12;
+		@apply print:grid print:grid-cols-3;
+		@apply m-1 lg:m-12 print:m-0;
 		@apply bg-white;
-		box-shadow: 0 35px 35px rgba(0, 0, 0, 0.1);
+	}
+
+	@media screen
+	{
+		#app
+		{
+			@apply container;
+			box-shadow: 0 35px 35px rgba(0, 0, 0, 0.1);
+		}
 	}
 }

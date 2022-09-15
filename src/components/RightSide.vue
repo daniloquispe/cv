@@ -21,8 +21,8 @@ export default {
 <style scoped>
 .right-side
 {
-	@apply lg:col-span-2;
-	@apply p-10;
+	@apply lg:col-span-2 print:col-span-2;
+	@apply p-10 print:p-5;
 	@apply bg-white;
 }
 </style>

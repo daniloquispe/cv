@@ -21,7 +21,7 @@ export default {
 <style scoped>
 .left-side
 {
-	@apply p-10;
+	@apply p-10 print:p-5;
 	background: #003147;
 }
 </style>

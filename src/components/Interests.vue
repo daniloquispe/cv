@@ -27,5 +27,6 @@ ul
 {
 	@apply sm:grid sm:grid-cols-2;
 	@apply lg:grid-cols-4;
+	@apply print:grid-cols-4;
 }
 </style>

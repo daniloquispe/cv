@@ -20,7 +20,7 @@ export default {
 <style scoped>
 .section
 {
-	margin-bottom: 50px;
+	@apply mb-12 print:mb-10;
 }
 .section:last-child
 {
@@ -29,9 +29,8 @@ export default {
 
 h2
 {
-	@apply font-bold uppercase;
-	margin-bottom: 10px;
+	@apply mb-2.5;
+	@apply font-bold uppercase tracking-wider;
 	color: #003147;
-	letter-spacing: 1px;
 }
 </style>

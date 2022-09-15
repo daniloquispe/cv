@@ -20,7 +20,7 @@ export default {
 <style scoped>
 .section
 {
-	@apply pt-10;
+	@apply pt-10 print:pt-8;
 }
 
 h2
