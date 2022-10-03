@@ -8,12 +8,6 @@
 	</div>
 </template>
 
-<script>
-export default {
-	name: "ProfileText"
-}
-</script>
-
 <style scoped>
 .profile-text
 {

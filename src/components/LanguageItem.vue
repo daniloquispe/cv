@@ -7,15 +7,12 @@
 	</li>
 </template>
 
-<script>
-export default {
-	name: "LanguageItem",
-	props: {
-		percent: {
-			default: 100,
-		}
+<script setup>
+defineProps({
+	percent: {
+		default: 100,
 	}
-}
+});
 </script>
 
 <style scoped>

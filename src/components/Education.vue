@@ -10,13 +10,9 @@
 	</LeftSideSection>
 </template>
 
-<script>
+<script setup>
 import LeftSideSection from "./LeftSideSection.vue";
 import EducationItem from "./EducationItem.vue";
-export default {
-	name: "Education",
-	components: {EducationItem, LeftSideSection}
-}
 </script>
 
 <style scoped>

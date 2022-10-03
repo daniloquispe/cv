@@ -7,15 +7,11 @@
 	</div>
 </template>
 
-<script>
+<script setup>
 import ProfileText from "./ProfileText.vue";
 import ContactInfo from "./ContactInfo.vue";
 import Education from "./Education.vue";
 import Languages from "./Languages.vue";
-export default {
-	name: "LeftSide",
-	components: {Languages, Education, ContactInfo, ProfileText}
-}
 </script>
 
 <style scoped>

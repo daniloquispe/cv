@@ -38,13 +38,9 @@
 	</RightSideSection>
 </template>
 
-<script>
+<script setup>
 import RightSideSection from "./RightSideSection.vue";
 import ExperienceItem from "./ExperienceItem.vue";
-export default {
-	name: "Experience",
-	components: {ExperienceItem, RightSideSection}
-}
 </script>
 
 <style scoped>

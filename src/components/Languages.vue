@@ -9,13 +9,9 @@
 	</LeftSideSection>
 </template>
 
-<script>
+<script setup>
 import LeftSideSection from "./LeftSideSection.vue";
 import LanguageItem from "./LanguageItem.vue";
-export default {
-	name: "Languages",
-	components: {LanguageItem, LeftSideSection}
-}
 </script>
 
 <style scoped>

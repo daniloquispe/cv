@@ -13,13 +13,9 @@
 	</RightSideSection>
 </template>
 
-<script>
+<script setup>
 import RightSideSection from "./RightSideSection.vue";
 import SkillItem from "./SkillItem.vue";
-export default {
-	name: "Skills",
-	components: {SkillItem, RightSideSection}
-}
 </script>
 
 <style scoped>

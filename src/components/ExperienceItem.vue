@@ -11,24 +11,21 @@
 	</div>
 </template>
 
-<script>
-export default {
-	name: "ExperienceItem",
-	props: {
-		period: {
-			type: String,
-			required: true
-		},
-		companyName: {
-			type: String,
-			required: true,
-		},
-		title: {
-			type: String,
-			required: true,
-		}
+<script setup>
+defineProps({
+	period: {
+		type: String,
+		required: true
+	},
+	companyName: {
+		type: String,
+		required: true,
+	},
+	title: {
+		type: String,
+		required: true,
 	}
-}
+});
 </script>
 
 <style scoped>

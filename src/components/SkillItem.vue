@@ -7,15 +7,12 @@
 	</div>
 </template>
 
-<script>
-export default {
-	name: "SkillItem",
-	props: {
-		percent: {
-			default: 100
-		}
+<script setup>
+defineProps({
+	percent: {
+		default: 100
 	}
-}
+});
 </script>
 
 <style scoped>

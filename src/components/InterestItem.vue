@@ -7,16 +7,13 @@
 	</li>
 </template>
 
-<script>
-export default {
-	name: "InterestItem",
-	props: {
-		icon: {
-			type: String,
-			required: true
-		}
+<script setup>
+defineProps({
+	icon: {
+		type: String,
+		required: true
 	}
-}
+});
 </script>
 
 <style scoped>

@@ -13,13 +13,9 @@
 	</RightSideSection>
 </template>
 
-<script>
+<script setup>
 import RightSideSection from "./RightSideSection.vue";
 import InterestItem from "./InterestItem.vue";
-export default {
-	name: "Interests",
-	components: {InterestItem, RightSideSection}
-}
 </script>
 
 <style scoped>

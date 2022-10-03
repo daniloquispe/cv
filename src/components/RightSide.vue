@@ -7,15 +7,11 @@
 	</div>
 </template>
 
-<script>
+<script setup>
 import ProfileDetail from "./ProfileDetail.vue";
 import Experience from "./Experience.vue";
 import Skills from "./Skills.vue";
 import Interests from "./Interests.vue";
-export default {
-	name: "RightSide",
-	components: {Interests, Skills, Experience, ProfileDetail}
-}
 </script>
 
 <style scoped>

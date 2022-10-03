@@ -9,12 +9,8 @@
 	</RightSideSection>
 </template>
 
-<script>
+<script setup>
 import RightSideSection from "./RightSideSection.vue";
-export default {
-	name: "ProfileDetail",
-	components: {RightSideSection}
-}
 </script>
 
 <style scoped>

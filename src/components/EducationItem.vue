@@ -6,20 +6,17 @@
 	</li>
 </template>
 
-<script>
-export default {
-	name: "EducationItem",
-	props: {
-		period: {
-			type: String,
-			required: true
-		},
-		at: {
-			type: String,
-			required: true
-		}
+<script setup>
+defineProps({
+	period: {
+		type: String,
+		required: true
+	},
+	at: {
+		type: String,
+		required: true
 	}
-}
+});
 </script>
 
 <style scoped>
