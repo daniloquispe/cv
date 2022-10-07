@@ -29,5 +29,6 @@ h2
 	@apply mb-2.5;
 	@apply font-bold uppercase tracking-wider;
 	color: #003147;
+	@apply dark:text-cyan-400;
 }
 </style>

@@ -18,6 +18,7 @@ p
 {
 	@apply mb-4;
 	color: #333;
+	@apply dark:text-gray-300;
 }
 p:last-child
 {

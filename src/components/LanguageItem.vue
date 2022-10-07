@@ -42,7 +42,11 @@ li
 @media screen
 {
 	.percent			{ background: #081921 }
-	.percent > span		{ background: #03a9f4 }
+	.percent > span
+	{
+		background: #03a9f4;
+		@apply dark:bg-cyan-600;
+	}
 }
 
 @media print

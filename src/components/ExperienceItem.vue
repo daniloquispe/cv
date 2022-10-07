@@ -49,6 +49,11 @@ defineProps({
 	color: #848c90;
 }
 
+.box .text
+{
+	@apply dark:text-gray-200;
+}
+
 .box .text strong
 {
 	@apply uppercase;

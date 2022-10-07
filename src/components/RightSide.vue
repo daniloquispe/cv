@@ -19,6 +19,6 @@ import Interests from "./Interests.vue";
 {
 	@apply lg:col-span-2 print:col-span-2;
 	@apply p-10 print:p-5;
-	@apply bg-white;
+	@apply bg-white dark:bg-gray-800;
 }
 </style>

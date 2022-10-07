@@ -22,6 +22,7 @@ li
 	@apply mt-1;
 	@apply font-semibold;
 	color: #333;
+	@apply dark:text-gray-300;
 }
 
 li > span

@@ -17,6 +17,7 @@
 		@apply flex justify-center items-center;
 		@apply min-h-screen;
 		background: lightblue;
+		@apply dark:bg-cyan-900;
 	}
 
 	#app
@@ -24,7 +25,6 @@
 		@apply lg:grid lg:grid-cols-3;
 		@apply print:grid print:grid-cols-3;
 		@apply m-1 lg:m-12 print:m-0;
-		@apply bg-white;
 	}
 
 	@media screen

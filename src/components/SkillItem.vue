@@ -41,11 +41,13 @@ defineProps({
 	.box .percent
 	{
 		background: #f0f0f0;
+		@apply dark:bg-gray-700;
 	}
 
 	.box .percent > div
 	{
-		background: #03a9f4
+		background: #03a9f4;
+		@apply dark:bg-cyan-600;
 	}
 }
 
