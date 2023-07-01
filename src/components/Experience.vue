@@ -1,5 +1,5 @@
 <template>
-	<RightSideSection title="Experience">
+	<RightSideSection title="Job experience">
 		<ExperienceItem period="2021 - 2023" company-name="Bilingual Language Solutions" title="Developer">
 			<p>Development of integration software for Bilingual interpreters' information and productivity
 				reports (web-based platform, REST API and Google Chrome extension).</p>
