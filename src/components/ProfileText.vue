@@ -5,8 +5,20 @@
 		</div>
 		<h1>Danilo Alejandro<br />Quispe Lucana</h1>
 		<p>Fullstack Web Developer</p>
+		<div class="buttonbar">
+			<button type="button" @click="printDialog">
+				<font-awesome-icon icon="print" /> Print
+			</button>
+		</div>
 	</div>
 </template>
+
+<script setup>
+function printDialog()
+{
+	window.print();
+}
+</script>
 
 <style scoped>
 .profile-text
@@ -40,5 +52,21 @@ h1
 h1 + p
 {
 	@apply text-sm text-center text-white uppercase;
+}
+
+.buttonbar
+{
+	@apply mt-5;
+	@apply print:hidden;
+}
+
+.buttonbar button
+{
+	@apply inline-block;
+	@apply mx-2 px-5 py-2;
+	@apply rounded;
+	@apply bg-[#ffffff11] hover:bg-[#ffffff22];
+	@apply text-white;
+	@apply transition-colors;
 }
 </style>
